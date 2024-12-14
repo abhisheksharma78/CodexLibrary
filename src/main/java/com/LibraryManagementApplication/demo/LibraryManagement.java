@@ -11,9 +11,6 @@ public class LibraryManagement {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LibraryManagement.class, args);
-	}
-
-	public void run(String[] args) {
 		LibraryItem book = new Book("The Alchemist", "Paulo Coelho", "123-4567890123", 5);
 		System.out.println("Before Update:" + book);
 		book.setTitle("The Alchemist: A Pocket Guide");
